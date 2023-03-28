@@ -1,0 +1,263 @@
+body {
+    width: 1440px;
+height: 1480px;
+}
+header {
+width: 1440px;
+height: 500px;
+background: #ED4C5C;
+display: flex
+}
+.info {
+    padding-top: 122px;
+    padding-left: 165px;
+}
+.info h1 {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+color: #FFFFFF;
+width: 445px;
+height: 107px;    
+margin: 0%;
+}
+.info p {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+color: #FFFFFF;
+width: 445px;
+height: 64px;
+}
+.icons {
+    display: flex;
+}
+.google_s {
+    width: 32px;
+    height: 32px;
+   margin-top: 24px;
+}
+.app_s {
+    width: 28px;
+    height: 28px;
+    margin-left: 25px;
+    margin-top: 26px;
+}
+.windows {
+    width: 24px;
+    height: 24px;
+    margin-left: 25px;
+    margin-top: 28px;
+}
+.picture {
+    margin-left: 81px;
+}
+.imgback1, .imgback2 {
+    position: relative;
+    display: flex;
+}
+.imgback1 {
+    width: 383px;
+height: 267px;
+    top:116px;
+    bottom: 117px;
+    opacity: 0.5;
+border-radius: 15px;
+}
+.imgback2 {
+    width: 383px;
+height: 267px;
+opacity: 0.5;
+border-radius: 15px;
+top: -151px;
+left: 150px;
+}
+.imgbase {
+position: absolute;
+width: 445px;
+height: 311px;
+border-radius: 15px;
+    left: 743px;
+    top: 102px;
+    z-index: 1;
+}
+section {
+    width: 1440px;
+height: 500px;
+margin-top: 0px;
+display: flex;
+}
+.contact h2 {
+    width: 445px;
+height: 107px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+padding-top: 116px;
+padding-left: 176px;
+margin: 0%;
+color: #000000;
+
+
+} 
+.contact p {
+    width: 434px;
+height: 64px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+margin-left: 176px;
+margin-top: 0%;
+color: #000000;
+}
+
+.f_name, .l_name {
+    display: inline-block;
+    box-sizing: border-box;
+width: 255px;
+height: 60px;
+border: 1px solid #333333;
+border-radius: 6px;
+padding: 20px 31px;
+}
+.f_name{
+    margin-left: 120px;
+margin-top: 117px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: rgba(19, 39, 67, 0.5);
+border-radius: 6px;
+}
+.l_name {
+    margin-left: 30px;
+    margin-top: 117px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+}
+.p_number, .s_service{
+    box-sizing: border-box;
+width: 540px;
+height: 60px;
+border: 1px solid #333333;
+border-radius: 6px;
+display: block;
+margin-top: 24px;
+margin-left: 122px;
+padding: 20px 31px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: rgba(19, 39, 67, 0.5);
+}
+button {
+    box-sizing: border-box;
+height: 50px;
+background: #ED4C5C;
+border: 1.5px solid #ED4C5C;
+border-radius: 6px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 27px;
+margin-left: 120px;
+padding: 17px 34px;
+cursor: pointer;
+}
+
+
+footer {
+    width: 1440px;
+height: 435px;
+background: #FAFAFA;
+display: flex
+}
+.adress {
+    margin-left: 166px;
+    margin-top: 85px;
+}
+.adress p{
+width: 160px;
+height: 54px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+color: #101010;
+margin-top: 33px;
+}
+h3 {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+color: #101010;
+}
+#bot {
+    margin-top: 141px;
+}
+.services {
+    margin-top: 85px;
+    margin-left: 124px;
+}
+.services ul {
+    width: 254px;
+height: 114px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 160%;
+text-transform: capitalize;
+color: #000000;
+padding-left: 0px;
+}
+.get {
+    margin-top: 85px;
+    margin-left: 30px;
+}
+.get a {
+    display: block;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #101010;
+line-height: 160%;
+}
+.vectors {
+    margin-top: 19px;
+}
+.vectors img {
+    padding-left: 10px;
+    float: left;
+}
+.support {
+    margin-top: 85px;
+    margin-left: 166px;
+}
