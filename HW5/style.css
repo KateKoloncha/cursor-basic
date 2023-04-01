@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+table {
+    margin-top: 50px;
+    margin-left: 70px;
+    border-collapse: collapse;
+    width: 900px;
+    border: 1px solid rgb(168, 168, 168);
+}
+th, td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid rgb(168, 168, 168);
+
+}
+.col2 {
+    color: rgba(219, 219, 219, 0.246);
+}
+.menu {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+p {
+    display: inline-block;
+}
+table th {
+    height: 60px;
+    padding: 2px 20px;
+}
+.dots1 {
+    width: 50px;
+    height: auto;
+    color: rgba(219, 219, 219, 0.246);
+    text-align: center;
+    font-size: 30px;
+}
+.dots {
+    width: 50px;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.menu2 {
+    width: 15px;
+    height: 15px;
+
+}
+.file3 {
+    width: 20px;
+    height: 20px;
+}
+.search {
+    border-radius: 10px;
+    background-color: rgba(93, 93, 93, 0.458);
+    padding: 16px;
+    padding-left: 25px;
+    float: right;
+    box-sizing: border-box;
+    border-style: none;
+}
+.dots3 {
+    text-align: right;
+    width: 50px;
+    height: auto;
+    font-size: 30px;
+    padding-right: 30px;
+}
+.sea {
+    padding: 0 10px;
+}
+.img_s {
+    width: 22px;
+    position: absolute;
+    top: 760px;
+    left: 755px;
+}
