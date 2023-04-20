@@ -360,10 +360,10 @@ text-decoration-line: none;
     }
     .mobile-back {
         display: flex;
-        min-height: 450px;
+        max-height: 565px;
         min-width: 320px;
         max-width: 500px;
-        justify-content: center;
+        transform: translateX(-110px)
     }
     /* ---- */
     .section3 {
@@ -373,13 +373,15 @@ text-decoration-line: none;
         background: none;
         color: #4F4F4F;        
     }
-    .minidiv svg {
+    .minidiv path {
         fill: #00ADEE;
-        stroke:#00ADEE;
     }
     .sec3-text {
         display: flex;
         flex-direction: column;
+        text-align: center;
+    }
+    .section3 h1 {
         text-align: center;
     }
     .team2, .team3, .team4 {

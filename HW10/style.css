@@ -34,9 +34,7 @@ body {
     height: 20px;
 }
 
-
-
-.sword2 {
+.animation1:hover > .sword2 {
     transform: rotateZ(45deg);
     --blue-shadow:
     0 0 0.1vw 0.2vw #c5f7ff,
@@ -44,8 +42,9 @@ body {
     0 0 1vw 0.4vw #4056ff;
     box-shadow: var(--blue-shadow);
     background: rgb(75, 96, 255);
+    transition: 2s;
 }
-.sword3 {
+.animation1:hover > .sword3 {
     transform: rotateZ(-45deg);
     transform-origin: 122px 7px;
     --blue-shadow:
@@ -54,4 +53,16 @@ body {
     0 0 1vw 0.4vw #ff4040;
     box-shadow: var(--blue-shadow);
     background: rgb(255, 34, 34);
+    transition: 2s;
 }
+.animation1:hover > .sword1 {
+    --blue-shadow:
+    0 0 0.1vw 0.2vw #cbffc5,
+    0 0 0.4vw 0.6vw #00ff04,
+    0 0 1vw 0.4vw #08e400;
+    box-shadow: var(--blue-shadow);
+    transform: translateY(60px);
+    transition: 2s;
+    opacity: 0;
+}
+
