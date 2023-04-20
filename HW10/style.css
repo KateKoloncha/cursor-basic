@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.animation1 {
+    background-image: url(https://pibig.info/uploads/posts/2022-12/1670045635_1-pibig-info-p-chernoe-zvezdnoe-nebo-oboi-oboi-1.jpg);
+    height: 450px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.sword1, .sword2, .sword3 {
+    width: 400px;
+    height: 20px;
+    background-color: rgb(126, 126, 126);
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.blackdiv2 {
+    background-color: black;
+    margin-left: 340px;
+    width: 40px;
+    height: 20px;
+}
+.blackdiv1, .blackdiv3 {
+    background-color: black;
+    margin-left: 20px;
+    width: 40px;
+    height: 20px;
+}
+
+
+
+.sword2 {
+    transform: rotateZ(45deg);
+    --blue-shadow:
+    0 0 0.1vw 0.2vw #c5f7ff,
+    0 0 0.4vw 0.6vw #00b3ff,
+    0 0 1vw 0.4vw #4056ff;
+    box-shadow: var(--blue-shadow);
+    background: rgb(75, 96, 255);
+}
+.sword3 {
+    transform: rotateZ(-45deg);
+    transform-origin: 122px 7px;
+    --blue-shadow:
+    0 0 0.1vw 0.2vw #ffc5c5,
+    0 0 0.4vw 0.6vw #ff0000,
+    0 0 1vw 0.4vw #ff4040;
+    box-shadow: var(--blue-shadow);
+    background: rgb(255, 34, 34);
+}

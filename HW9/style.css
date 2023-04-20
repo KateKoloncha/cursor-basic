@@ -135,7 +135,7 @@ text-decoration-line: none;
 margin-top: 5%;
 }
 .section3 {
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url(img9/section3back.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -170,6 +170,7 @@ line-height: 23px;
     height: 50%;
     display: flex;
     align-items: center;
+    overflow: hidden;
 
 }
 .team-header {
@@ -179,7 +180,7 @@ line-height: 23px;
     display: inline-flex;
     gap: 25px;
 }
-.team {
+.team1, .team2, .team3, .team4 {
     height: 160px;
     width: 300px;
     border: 1px solid #828282;
@@ -264,6 +265,7 @@ line-height: 23px;
     display: flex;
     gap: 25px;
     padding-top: 4%;
+    padding-bottom: 2%;
 }
 .section6 {
     display: flex;
@@ -303,6 +305,7 @@ text-decoration-line: none;
     body {
         display: flex;
         flex-direction: column;
+        overflow-x: hidden;
 
     }
     .back {
@@ -367,7 +370,8 @@ text-decoration-line: none;
         display: flex;
         flex-direction: column;
         min-height: 1500px;
-
+        background: none;
+        color: #4F4F4F;        
     }
     .minidiv svg {
         fill: #00ADEE;
@@ -377,5 +381,46 @@ text-decoration-line: none;
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+    .team2, .team3, .team4 {
+        display: none;
+    }
+    .arrow-l {
+        display: none;
+    }
+    .section6 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+
+    }
+    .sec6-text {
+        width: 90vw;
+        height: 380px;
+        padding-left: 0;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .img6section {
+        height: auto;
+        width: 100vw;
+    }
+    .sec5-img {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section5 {
+        height: auto;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: auto;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .icons-footer {
+        grid-row-start: 2;
     }
  }
