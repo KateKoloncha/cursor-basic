@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #333333;
+    background-color: git#333333;
 }
 .animation1 {
     background-image: url(https://pibig.info/uploads/posts/2022-12/1670045635_1-pibig-info-p-chernoe-zvezdnoe-nebo-oboi-oboi-1.jpg);
@@ -70,6 +70,7 @@ body {
 .animation2 {
     display: flex;
     height: 200px;
+    align-items: end;
 }
 .teamL, .team2, .team3, .team4, .team5, .team6, .teamR {
     display: flex;
