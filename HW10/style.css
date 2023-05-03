@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: git#333333;
+    background-color: #333333;
 }
 .animation1 {
     background-image: url(https://pibig.info/uploads/posts/2022-12/1670045635_1-pibig-info-p-chernoe-zvezdnoe-nebo-oboi-oboi-1.jpg);
@@ -74,20 +74,23 @@ body {
 }
 .teamL, .team2, .team3, .team4, .team5, .team6, .teamR {
     display: flex;
-    align-items: end;
+    height: 200px;
+    width: 60px;
 }
 .ball1, .ball2, .ball3, .ball4, .ball5, .ball6, .ball7 {
     border-radius: 50%;
     height: 60px;
     width: 60px;
+    margin-top: 140px;
 }
+
 .teamL {
-   
     animation: anim2l 2s ease 1s infinite reverse;
 }
 .teamR {
-    animation: anim2r 2s ease  infinite reverse;
+    animation: anim2r 2s ease infinite reverse;
 }
+
 .ball1 {
     background-color: #0f21ae;
 }
@@ -114,15 +117,15 @@ body {
         transform: rotateZ(0);
     }
     25%{
-        transform: rotateZ(55deg);
+        transform: rotateZ( 55deg);
     }    
-
 }
+
 @keyframes anim2r{
     0%, 50%{
         transform: rotateZ(0);
     }
     25%{
-        transform: rotateZ(-55deg);
+        transform: rotateZ( -55deg);
     }    
 }
