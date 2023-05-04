@@ -117,7 +117,7 @@ body {
         transform: rotateZ(0);
     }
     25%{
-        transform: rotateZ( 55deg);
+        transform: rotateZ(55deg);
     }    
 }
 
@@ -126,6 +126,6 @@ body {
         transform: rotateZ(0);
     }
     25%{
-        transform: rotateZ( -55deg);
+        transform: rotateZ(-55deg);
     }    
 }
